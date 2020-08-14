@@ -1,0 +1,66 @@
+
+body{
+    font-family: Helvetica , Arial,  sans-serif;
+}
+.navbar-brand
+{
+    margin-left: 15%;
+    color: rgb(13, 13, 241);
+}
+.navbar
+{
+   height:  10%;
+}
+
+ul 
+{
+    margin-right: 10%;
+}
+li > a{color:  rgb(13, 13, 241); font-size: larger;}
+.Home
+{
+  
+    height: 600px;
+    background: url('../assets/intro-bg.png');
+    background-size: 100% 100%;
+}
+h1{
+    font-size: 50px;
+}
+h1 > span
+{
+    color: rgb(77, 192, 192);
+    text-decoration: underline;
+}
+
+.left
+
+{
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 150px;
+    float: left;
+    margin-right: 20%;
+}
+.mat-raised-button{
+    background-color:rgb(63, 129, 230);
+    color: white;
+    width: 45%;
+    border-radius: 20px;
+    padding: 3px;
+} 
+.mat-stroked-button
+{
+    color: white;
+    width: 45%;
+    border-radius: 20px;
+    padding: 3px;
+    margin-left: 20px;
+    border: 2px solid white;
+}
+.Home > img
+{
+    position: relative;
+    top:15%;
+}
