@@ -23,6 +23,7 @@ li > a{color:  rgb(13, 13, 241); font-size: larger;}
     height: 600px;
     background: url('../assets/intro-bg.png');
     background-size: 100% 100%;
+    margin-bottom: 50px;
 }
 h1{
     font-size: 50px;
@@ -63,4 +64,46 @@ h1 > span
 {
     position: relative;
     top:15%;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+.about h1
+{
+    text-align: center;
+    font-size: 30px;
+}
+.about >  p{
+   
+    color: gray;
+    width: 500px;
+    position: relative;
+    left: 500px;
+    margin-bottom: 50px;
+    text-align-last: center;
+}
+.leftAbout
+{
+   
+    margin-left: 50px;
+    width: 700px;
+    padding: 50px;
+    color: gray;
+    float: left;
+}
+.options
+{
+    margin-bottom: 35px;
+}
+.options >img
+{
+    float: left;
+    margin-right: 20px;
+}
+.options h2{
+    color: #001f4d;
+}
+.options > p
+{
+    word-wrap: break-word;
+    display: flex;
 }
